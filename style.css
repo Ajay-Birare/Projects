@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 .navlinks{
-    display: flex;
+     display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
      /* border: 1px solid black; */
@@ -16,10 +16,10 @@
      margin-top: 10px;
      margin: 0px auto;
      background-color: wheat;
-    /* background-image: url("https://images.pexels.com/photos/6373304/pexels-photo-6373304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+     /* background-image: url("https://images.pexels.com/photos/6373304/pexels-photo-6373304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
       background-size: cover;
-      background-blend-mode:darken;
-padding: 50px;
+     background-blend-mode:darken;
+     padding: 50px;
 }
 .left{
         margin-top: 50px;
@@ -77,6 +77,9 @@ h2{
     justify-content: center;
     margin-top: 70px;
     margin-bottom: 50px
+}
+.img img{
+ height: 500px;
 }
 .img-sec{
     display: flex;
@@ -148,7 +151,7 @@ h2{
     /* border: 1px solid black; */
     width: 90%;
     height: 70vh;
-    margin: 0 auto;
+    margin: 0px auto;
     text-align: center;
     background-color: rgb(176, 217, 217);
     margin-bottom: 100px;
@@ -173,6 +176,7 @@ h2{
     display: flex;
     justify-content: space-around;
 }
+
 
 .box{
     display: grid;
@@ -304,6 +308,7 @@ background-color: rgb(143, 169, 177);
 }
 .course1 img{
     height: 150px;
+    /* height: 20vh; */
 }
 .course1 h2{
     text-align: center;
